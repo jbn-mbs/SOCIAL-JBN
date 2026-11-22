@@ -1,0 +1,32 @@
+{
+  "name": "careerguide-social",
+  "private": true,
+  "type": "module",
+  "description": "Daily Instagram reel for careerGUIDE: Claude writes the script, Remotion renders it, Telegram delivers it to the manager.",
+  "scripts": {
+    "daily": "tsx --env-file-if-exists=.env src/daily.ts",
+    "daily:sample": "tsx --env-file-if-exists=.env src/daily.ts --sample",
+    "footage": "tsx --env-file-if-exists=.env src/footage.ts",
+    "preview": "remotion studio remotion/index.ts",
+    "telegram:test": "tsx --env-file-if-exists=.env src/telegram.ts --test",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.6.0",
+    "@remotion/bundler": "4.0.541",
+    "@remotion/cli": "4.0.541",
+    "@remotion/renderer": "4.0.541",
+    "playwright": "1.65.0",
+    "react": "19.1.10",
+    "react-dom": "19.1.10",
+    "remotion": "4.0.541",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}

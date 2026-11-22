@@ -1,0 +1,38 @@
+[
+  {
+    "id": "games",
+    "name": "Games, not forms",
+    "angle": "careerGUIDE finds a student's fit through game-based assessments instead of a long questionnaire.",
+    "audience": "students"
+  },
+  {
+    "id": "try-the-job",
+    "name": "Try the job first",
+    "angle": "Career simulations let students experience a role's decisions before choosing it.",
+    "audience": "students and parents"
+  },
+  {
+    "id": "not-a-black-box",
+    "name": "Not a black box",
+    "angle": "Recommendations come from clear, rule-based scoring matched to real occupations, and the report shows why.",
+    "audience": "parents and students"
+  },
+  {
+    "id": "next-step",
+    "name": "Your next step",
+    "angle": "Career reports give top matches and the specific skills to build next.",
+    "audience": "students"
+  },
+  {
+    "id": "for-schools",
+    "name": "For schools",
+    "angle": "Dashboards show institutes, teachers, counsellors and parents who is progressing and who needs a nudge.",
+    "audience": "school principals, counsellors and teachers"
+  },
+  {
+    "id": "build-in-public",
+    "name": "Building in public",
+    "angle": "The team shares what it is building and improving, plainly and honestly.",
+    "audience": "everyone following the product"
+  }
+]
